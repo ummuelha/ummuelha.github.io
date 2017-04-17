@@ -1,70 +1,87 @@
+body{
+	background-color: #f7eff3;
+	margin: 0;
+	padding: 0 400px 60px 400px;
+	border: 0;
+	width: 50%;
+}
 
-body {
-background-color : #f7eff3;
-margin : 0;
-padding : 0;
-border : 0;
-width : 100%;
+header{
+	text-align: center; 
+	font-
 }
-p {
-font-weight : bold;
-color : white;
+
+table, td, th{
+	border:1px solid #f7eff3;
 }
-p:hover {
-opacity : 0.89999997615814208984375;
+
+table{
+	border-collapse: collapse;
+	width: 100%;
 }
-.kiri {
-width : 25%;
-float : left;
-padding : 15px;
-border : red solid 1px;
+
+th.kanan{
+	height: 100px;
+	width: 100%;
+	background-color: #f7eff3;
 }
-.kanan {
-width : 75%;
-float : right;
-padding : 15px;
-border : red solid 1px;
+
+img.head{
+	width: 100%
 }
-hr {
-display : block;
-height : 1px;
-border : 0;
-border-top : 1px solid pink;
-margin : 1em 0;
-padding : 0;
-width : 50%;
+hr{
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid pink;
+    margin: 1em 0;
+    padding: 0;
+    width: 50%;
 }
-.baris {
-width : 100%;
-height : 100%;
-vertical-align : middle;
+
+h2{
+	font-family: 'Allan';
+	font-size: 22px;
 }
-.kolkir {
-display : inline-block;
-margin-left : 3%;
-width : 30%;
-height : 100%;
-line-height : 100%;
+.baris{
+	width: 100%;
+	margin-top: 0.3;
+	margin-bottom: 0.5;
+	height: 100%;
+	vertical-align: middle;
 }
-.kolkan {
-display : inline-block;
-width : 60%;
+
+img{
+	width: 5%
 }
-h2 {
-font-family : Perpetua, Baskerville, Big Caslon, Palatino Linotype, Palatino, URW Palladio L, Nimbus Roman No9 L, serif;
-font-size : 24px;
-font-style : normal;
-font-variant : normal;
-font-weight : 500;
-line-height : 27px;
+
+.isinya{
+	background: #efe4dc;
+	padding: 10%;
 }
-footer {
-bottom : 0;
-font-family : monospace;
-color : white;
-width : 100%;
-position : fixed;
-height : 4%;
-text-align : center;
-padding-top : 10px;
+
+.judul{
+	text-align: center;
+}
+.kolkir{
+	display: inline-block;
+	margin-left: 3%;
+	width: 30%;
+	height: 100%;
+	line-height: 100%;
+}
+.kolkan{
+	display: inline-block;
+	width: 60%
+}
+
+footer{
+	bottom: 0;
+	font-family: monospace;
+	color: white;
+	width: 100%;
+	position: fixed;
+	height: 4%;
+	text-align: center;
+	padding-top: 10px;
 }
