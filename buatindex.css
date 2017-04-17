@@ -1,0 +1,93 @@
+*{
+	transition: all 0.5s;
+	}
+
+body{
+	background-color: #f7eff3;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width: 100%;
+}
+
+.bukaan{
+	height: 10%;
+	position: relative;
+	margin: auto;
+	text-align: center;
+}
+
+.isi{
+	font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 28px;
+}
+
+.main-isi{
+	font-size: 125%;
+	font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	font-weight: bold;
+	margin-top: 0%;
+}
+
+.nama{
+	font-size: 150%;
+	font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	font-weight: bold;
+    color: #f2c6cd;
+}
+
+.nama: hover{
+	opacity: 0.5;
+}
+
+.tulismenu{
+	background-color: #FFFFFF;
+	border-style: dotted;
+	border-color:#990d43;
+	border-radius: 5px;
+	color: black;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: monospace;
+	width: 10%;
+    height: 5%;
+    margin: 10px;
+}
+
+.tulismenu:hover{
+	background-color: : #00b33c;
+	color: #bc6573;
+}
+
+.splash {
+	width: 55%;
+	height: 45%;
+	top: 25%;
+	padding-top: 1%;
+}
+.splash: hover{
+	opacity: 0.25;
+}
+
+footer{
+	bottom: 0;
+	font-family: monospace;
+	color: white;
+	width: 100%;
+	position: fixed;
+	height: 4%;
+	text-align: center;
+	padding-top: 10px;
+}
+
+footer:hover{
+	background-color: #d66d7d;
+	color: white;
+	opacity: 0.3;
+}
