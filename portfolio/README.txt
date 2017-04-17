@@ -7,6 +7,6 @@
 
 2. Berkolaborasi dengan:
 -Febri Triyanto
-
+-Dentiano Nugroho R
 3. Total waktu pembuatan: 5 jam
 
