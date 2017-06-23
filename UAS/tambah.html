@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Math Quiz for Kids!</title>
+	<link rel="stylesheet" type="text/css" href="awal.css">
+</head>
+
+<body>
+	<div class="judul">
+		<a href="#">
+			<img src="math.png">
+		</a>
+	</div>
+
+	<div class="lis" id="list">
+		<a href="tambah.html" class="namamenu">Quick Random Quiz</a>
+		<br> <br> <br><br><br><br>
+		<a href="inikuis.html" class="namamenu">Math Word Problem Quiz</a>
+		<br>
+	</div>
+
+	<div class="gambar">
+		
+		<div class="dua">
+			<a href="#">
+				<img src="8.gif">
+			</a>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+         function ask() {
+         var a = Math.floor(Math.random() * 20) + 1;
+         var b = Math.floor(Math.random() * 20) + 1;
+         var op = ["*", "+", "/", "-"][Math.floor(Math.random()*4)];
+            return prompt("How much is " + a + " " + op + " " + b + "?") == eval( a + op + b);
+                  }
+
+         var questions = [ask(), ask(), ask(), ask(), ask(), ask(), ask(), ask()],
+         total = questions.length,
+         correct = questions.filter(Boolean).length;
+
+         alert( "Your Score "+correct+"/"+total+"");
+
+	</script>
+
+</body>
+</html>
